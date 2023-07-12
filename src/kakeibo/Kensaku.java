@@ -114,7 +114,7 @@ public class Kensaku extends JPanel {
 		int[]colums = {100,200,200,100,100};
 		for(int i =0;i<colums.length;i++) {
 			column=columnModel.getColumn(i);
-			column.setPreferredWidth(colums[i]);//（幅指定）
+			column.setPreferredWidth(colums[i]);//（幅指定）！！！
 		}
 //		column =columnModel.getColumn(0);
 //		column.setPreferredWidth(100);//（幅指定）
